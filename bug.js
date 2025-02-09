@@ -1,0 +1,1 @@
+This error occurs when you try to access a component's state or props before it has been fully mounted.  This commonly happens within lifecycle methods like `componentDidMount` when attempting to access `this.props` or `this.state` immediately.  React Native, similar to React, might still be processing the mounting process at this early stage, resulting in `undefined` values.
